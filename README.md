@@ -26,6 +26,35 @@ NST uses a pretrained CNN (typically VGG19) to extract features from content and
 
 ---
 
+## 🖼️ Visual Result
+
+Here is how Neural Style Transfer blends the **content** and **style** images:
+
+| Content Image                  | + Style Image                   | = Stylized Output              |
+|-------------------------------|----------------------------------|-------------------------------|
+| ![Content](image/mona_lisa.jpg)     | ![Style](image/edtaonisl.jpg) | ![Stylized](image/stylized-image1.png) |
+
+---
+
+## 🖼️ Visual Result
+
+Here is how Neural Style Transfer blends the **content** and **style** images:
+
+<p align="center">
+  <img src="image/mona_lisa.jpg" alt="Content Image" width="250"/>
+  <span style="font-size: 24px; font-weight: bold;"> + </span>
+  <img src="image/edtaonisl.jpg" alt="Style Image" width="250"/>
+  <span style="font-size: 24px; font-weight: bold;"> = </span>
+  <img src="image/stylized-image1.png" alt="Stylized Output" width="250"/>
+</p>
+
+> The output image maintains the spatial structure of the content image and adopts the colors, textures, and brushstrokes of the style image.
+
+
+> The output preserves the structure of the content image and adopts the texture, brush strokes, and colors of the style image.
+
+---
+
 ## 📐 Math Behind the Losses
 
 ### 📷 Content Loss
