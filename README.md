@@ -143,5 +143,3 @@ Where:
 
 - Gatys et al. (2015), *“A Neural Algorithm of Artistic Style”* — https://arxiv.org/abs/1508.06576
 - TensorFlow Style Transfer Tutorial — https://www.tensorflow.org/tutorials/generative/style_transfer
-
----
