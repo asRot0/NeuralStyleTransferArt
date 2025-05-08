@@ -64,9 +64,9 @@ This computes the inner products between feature channels to form the Gram matri
 
 #### Style Loss Formula
 
-$$
+```math
 \mathcal{L}_{style}(S, G) = \sum_{l=1}^{L} \frac{1}{4N_l^2M_l^2} \sum_{i,j} (G^S_{ij} - G^G_{ij})^2
-$$
+```
 
 Where:
 - \( L \): Number of selected style layers
@@ -79,9 +79,9 @@ Where:
 
 Combines content and style losses:
 
-$$
+```math
 \mathcal{L}_{total} = \alpha \cdot \mathcal{L}_{content} + \beta \cdot \mathcal{L}_{style}
-$$
+```
 
 Where:
 - \( \alpha \): Weight for content loss (e.g., 1e4)
