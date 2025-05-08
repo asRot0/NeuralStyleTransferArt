@@ -36,6 +36,11 @@ Here is how Neural Style Transfer blends the **content** and **style** images:
 
 ---
 
+<p align="center">
+<img src="image/mona_lisa.jpg" width="570"/>
+<img src="image/edtaonisl.jpg" width="260"/>
+</p>
+
 ## 🖼️ Visual Result
 
 Here is how Neural Style Transfer blends the **content** and **style** images:
