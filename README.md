@@ -51,7 +51,7 @@ Measures the difference between the style (texture and pattern) of the style ima
 The Gram matrix captures the correlation between feature maps:
 
 ```math
-G^l_{ij} = \sum_k F^l_{ik} F^l_{jk}
+\LARGE G^l_{ij} = \sum_k F^l_{ik} F^l_{jk}
 ```
 
 In code, this is implemented efficiently using:
