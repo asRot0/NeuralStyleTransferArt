@@ -101,6 +101,8 @@ Where:
 - $`\alpha`$: Weight for content loss (e.g., 1e4)
 - $`\beta`$: Weight for style loss (e.g., 1e-2)
 
+> “Art enables us to find ourselves and lose ourselves at the same time.” – Thomas Merton
+
 <p align="center">
   <img src="image/content.jpg" width="150px">
   <img src="image/style.jpg" width="326px">
@@ -137,14 +139,9 @@ Where:
 
 ---
 
----
-
-
 ## 📚 References
 
 - Gatys et al. (2015), *“A Neural Algorithm of Artistic Style”* — https://arxiv.org/abs/1508.06576
 - TensorFlow Style Transfer Tutorial — https://www.tensorflow.org/tutorials/generative/style_transfer
 
 ---
-
-> “Art enables us to find ourselves and lose ourselves at the same time.” – Thomas Merton
