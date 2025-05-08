@@ -32,7 +32,7 @@ Here is how Neural Style Transfer blends the **content** and **style** images:
 
 <p align="center">
   <img src="image/mona_lisa.jpg" width="200px">
-  <img src="image/edtaonisl.jpg" width="300px">
+  <img src="image/edtaonisl.jpg" width="298px">
   <img src="image/stylized-image1.png" width="200px">
 </p>
 
@@ -105,13 +105,13 @@ Where:
 
 <p align="center">
   <img src="image/content.jpg" width="150px">
-  <img src="image/style.jpg" width="400px">
+  <img src="image/style.jpg" width="270px">
   <img src="image/stylized-image4.png" width="150px">
 </p>
 
 <p align="center">
   <img src="image/cartoon.jpg" width="150px">
-  <img src="image/style1.jpg" width="400px">
+  <img src="image/style1.jpg" width="290px">
   <img src="image/stylized-image5.png" width="150px">
 </p>
 
