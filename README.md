@@ -106,7 +106,7 @@ Where:
 <p align="center">
   <img src="image/content.jpg" width="150px">
   <img src="image/style.jpg" width="325px">
-  <img src="image/stylized-image4.png" width="150px">
+  <img src="image/stylized-image4.png" width="150px"/>
   
   <img src="image/cartoon.jpg" width="150px">
   <img src="image/style1.jpg" width="281px">
