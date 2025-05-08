@@ -84,8 +84,8 @@ Combines content and style losses:
 ```
 
 Where:
-- \( \alpha \): Weight for content loss (e.g., 1e4)
-- \( \beta \): Weight for style loss (e.g., 1e-2)
+- $`\alpha`$: Weight for content loss (e.g., 1e4)
+- $`beta`$: Weight for style loss (e.g., 1e-2)
 
 ---
 
