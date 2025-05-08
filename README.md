@@ -37,8 +37,8 @@ Measures the difference between the feature representations of the content image
 ```
 
 Where:
-- \( F_{ij}^C \): Feature map of the content image at position \(i, j\)
-- \( F_{ij}^G \): Feature map of the generated image
+- $`F_{ij}^C`$: Feature map of the content image at position \(i, j\)
+- $`F_{ij}^G`$: Feature map of the generated image
 
 ---
 
@@ -50,9 +50,9 @@ Measures the difference between the style (texture and pattern) of the style ima
 
 The Gram matrix captures the correlation between feature maps:
 
-$$
-\LARGE G^l_{ij} = \sum_k F^l_{ik} F^l_{jk}
-$$
+```math
+G^l_{ij} = \sum_k F^l_{ik} F^l_{jk}
+```
 
 In code, this is implemented efficiently using:
 
