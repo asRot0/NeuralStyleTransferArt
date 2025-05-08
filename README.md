@@ -38,12 +38,6 @@ Here is how Neural Style Transfer blends the **content** and **style** images:
 
 > The output preserves the structure of the content image and adopts the texture, brush strokes, and colors of the style image.
 
-<p align="center">
-  <img src="image/content.jpg" width="150px">
-  <img src="image/style.jpg" width="150px">
-  <img src="image/stylized-image4.png" width="150px">
-</p>
-
 ---
 
 ## 📐 Math Behind the Losses
@@ -106,6 +100,20 @@ Combines content and style losses:
 Where:
 - $`\alpha`$: Weight for content loss (e.g., 1e4)
 - $`\beta`$: Weight for style loss (e.g., 1e-2)
+
+---
+
+<p align="center">
+  <img src="image/content.jpg" width="150px">
+  <img src="image/style.jpg" width="400px">
+  <img src="image/stylized-image4.png" width="150px">
+</p>
+
+<p align="center">
+  <img src="image/cartoon.jpg" width="150px">
+  <img src="image/style1.jpg" width="400px">
+  <img src="image/stylized-image5.png" width="150px">
+</p>
 
 ---
 
