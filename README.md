@@ -101,8 +101,6 @@ Where:
 - $`\alpha`$: Weight for content loss (e.g., 1e4)
 - $`\beta`$: Weight for style loss (e.g., 1e-2)
 
----
-
 <p align="center">
   <img src="image/content.jpg" width="150px">
   <img src="image/style.jpg" width="326px">
