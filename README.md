@@ -69,9 +69,9 @@ This computes the inner products between feature channels to form the Gram matri
 ```
 
 Where:
-- \( L \): Number of selected style layers
-- \( N_l \): Number of filters in layer \(l\)
-- \( M_l \): Spatial size of the feature map
+- $`L`$: Number of selected style layers
+- $`N_l`$: Number of filters in layer $`l`$
+- $`M_l`$: Spatial size of the feature map
 
 ---
 
@@ -85,7 +85,7 @@ Combines content and style losses:
 
 Where:
 - $`\alpha`$: Weight for content loss (e.g., 1e4)
-- $`beta`$: Weight for style loss (e.g., 1e-2)
+- $`\beta`$: Weight for style loss (e.g., 1e-2)
 
 ---
 
