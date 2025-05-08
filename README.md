@@ -41,11 +41,11 @@ Here is how Neural Style Transfer blends the **content** and **style** images:
 Here is how Neural Style Transfer blends the **content** and **style** images:
 
 <p align="center">
-  <img src="image/mona_lisa.jpg" alt="Content Image" width="250"/>
+  <img src="image/mona_lisa.jpg" alt="Content Image" width="200px"/>
   <span style="font-size: 24px; font-weight: bold;"> + </span>
-  <img src="image/edtaonisl.jpg" alt="Style Image" width="250"/>
+  <img src="image/edtaonisl.jpg" alt="Style Image" width="200px"/>
   <span style="font-size: 24px; font-weight: bold;"> = </span>
-  <img src="image/stylized-image1.png" alt="Stylized Output" width="250"/>
+  <img src="image/stylized-image1.png" alt="Stylized Output" width="400px"/>
 </p>
 
 > The output image maintains the spatial structure of the content image and adopts the colors, textures, and brushstrokes of the style image.
