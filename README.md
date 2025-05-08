@@ -32,9 +32,9 @@ NST uses a pretrained CNN (typically VGG19) to extract features from content and
 
 Measures the difference between the feature representations of the content image and the generated image.
 
-$$
+```math
 \mathcal{L}_{content}(C, G) = \frac{1}{2} \sum_{i,j} (F_{ij}^C - F_{ij}^G)^2
-$$
+```
 
 Where:
 - \( F_{ij}^C \): Feature map of the content image at position \(i, j\)
@@ -51,7 +51,7 @@ Measures the difference between the style (texture and pattern) of the style ima
 The Gram matrix captures the correlation between feature maps:
 
 $$
-G^l_{ij} = \sum_k F^l_{ik} F^l_{jk}
+\LARGE G^l_{ij} = \sum_k F^l_{ik} F^l_{jk}
 $$
 
 In code, this is implemented efficiently using:
