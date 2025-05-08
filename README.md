@@ -33,7 +33,7 @@ NST uses a pretrained CNN (typically VGG19) to extract features from content and
 Measures the difference between the feature representations of the content image and the generated image.
 
 ```math
-\mathcal{L}_{content}(C, G) = \frac{1}{2} \sum_{i,j} (F_{ij}^C - F_{ij}^G)^2
+\LARGE \mathcal{L}_{content}(C, G) = \frac{1}{2} \sum_{i,j} (F_{ij}^C - F_{ij}^G)^2
 ```
 
 Where:
@@ -65,7 +65,7 @@ This computes the inner products between feature channels to form the Gram matri
 #### Style Loss Formula
 
 ```math
-\mathcal{L}_{style}(S, G) = \sum_{l=1}^{L} \frac{1}{4N_l^2M_l^2} \sum_{i,j} (G^S_{ij} - G^G_{ij})^2
+\LARGE \mathcal{L}_{style}(S, G) = \sum_{l=1}^{L} \frac{1}{4N_l^2M_l^2} \sum_{i,j} (G^S_{ij} - G^G_{ij})^2
 ```
 
 Where:
@@ -80,7 +80,7 @@ Where:
 Combines content and style losses:
 
 ```math
-\mathcal{L}_{total} = \alpha \cdot \mathcal{L}_{content} + \beta \cdot \mathcal{L}_{style}
+\LARGE \mathcal{L}_{total} = \alpha \cdot \mathcal{L}_{content} + \beta \cdot \mathcal{L}_{style}
 ```
 
 Where:
