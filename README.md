@@ -1,10 +1,10 @@
-# 🎨 Neural Style Transfer with TensorFlow and VGG19
+# Neural Style Transfer with TensorFlow and VGG19
 
 This project implements **Neural Style Transfer (NST)** using TensorFlow 2 and a pretrained **VGG19** network. The goal is to generate a new image that combines the **content of one image** with the **artistic style of another**.
 
 ---
 
-## 📌 What is Neural Style Transfer?
+## What is Neural Style Transfer?
 
 Neural Style Transfer is a deep learning technique that separates and recombines **content** and **style** from two images using feature maps extracted from a convolutional neural network.
 
@@ -14,7 +14,7 @@ Neural Style Transfer is a deep learning technique that separates and recombines
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 NST uses a pretrained CNN (typically VGG19) to extract features from content and style images. These features are used to calculate losses that guide the generated image to match the desired output.
 
@@ -26,7 +26,7 @@ NST uses a pretrained CNN (typically VGG19) to extract features from content and
 
 ---
 
-## 🖼️ Visual Result
+## Visual Result
 
 Here is how Neural Style Transfer blends the **content** and **style** images:
 
@@ -40,9 +40,9 @@ Here is how Neural Style Transfer blends the **content** and **style** images:
 
 ---
 
-## 📐 Math Behind the Losses
+## Math Behind the Losses
 
-### 📷 Content Loss
+### Content Loss
 
 Measures the difference between the feature representations of the content image and the generated image.
 
@@ -56,11 +56,11 @@ Where:
 
 ---
 
-### 🖌️ Style Loss
+### Style Loss
 
 Measures the difference between the style (texture and pattern) of the style image and the generated image using **Gram matrices**.
 
-#### 📊 Gram Matrix
+#### Gram Matrix
 
 The Gram matrix captures the correlation between feature maps:
 
@@ -89,7 +89,7 @@ Where:
 
 ---
 
-### ⚖️ Total Loss
+### Total Loss
 
 Combines content and style losses:
 
@@ -115,7 +115,7 @@ Where:
 
 ---
 
-## 🛠️ Training Process
+## Training Process
 
 1. Initialize the generated image as a copy of the content image.
 2. Extract target features from the content and style images.
@@ -126,7 +126,7 @@ Where:
 
 ---
 
-## 🧱 Layers Used
+## Layers Used
 
 | Type     | Layer Name       | Purpose                   |
 |----------|------------------|---------------------------|
@@ -139,7 +139,7 @@ Where:
 
 ---
 
-## 📚 References
+## References
 
 - Gatys et al. (2015), *“A Neural Algorithm of Artistic Style”* — https://arxiv.org/abs/1508.06576
 - TensorFlow Style Transfer Tutorial — https://www.tensorflow.org/tutorials/generative/style_transfer
