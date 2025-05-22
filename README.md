@@ -2,8 +2,6 @@
 
 This project implements **Neural Style Transfer (NST)** using TensorFlow 2 and a pretrained **VGG19** network. The goal is to generate a new image that combines the **content of one image** with the **artistic style of another**.
 
----
-
 ## What is Neural Style Transfer?
 
 Neural Style Transfer is a deep learning technique that separates and recombines **content** and **style** from two images using feature maps extracted from a convolutional neural network.
@@ -11,22 +9,6 @@ Neural Style Transfer is a deep learning technique that separates and recombines
 - **Content Image**: Defines the structure or semantics.
 - **Style Image**: Defines texture, color, and patterns.
 - **Generated Image**: Optimized to preserve content from the content image and style from the style image.
-
----
-
-## How It Works
-
-NST uses a pretrained CNN (typically VGG19) to extract features from content and style images. These features are used to calculate losses that guide the generated image to match the desired output.
-
-### Feature Extraction
-
-- Extract intermediate feature maps from VGG19.
-- Use `block5_conv2` for content representation.
-- Use multiple layers (`block1_conv1`, ..., `block5_conv1`) for style representation.
-
----
-
-## Visual Result
 
 Here is how Neural Style Transfer blends the **content** and **style** images:
 
@@ -38,7 +20,17 @@ Here is how Neural Style Transfer blends the **content** and **style** images:
 
 > The output preserves the structure of the content image and adopts the texture, brush strokes, and colors of the style image.
 
----
+
+
+## How It Works
+
+NST uses a pretrained CNN (typically VGG19) to extract features from content and style images. These features are used to calculate losses that guide the generated image to match the desired output.
+
+### Feature Extraction
+
+- Extract intermediate feature maps from VGG19.
+- Use `block5_conv2` for content representation.
+- Use multiple layers (`block1_conv1`, ..., `block5_conv1`) for style representation.
 
 ## Math Behind the Losses
 
@@ -53,8 +45,6 @@ Measures the difference between the feature representations of the content image
 Where:
 - $`F_{ij}^C`$: Feature map of the content image at position \(i, j\)
 - $`F_{ij}^G`$: Feature map of the generated image
-
----
 
 ### Style Loss
 
@@ -87,8 +77,6 @@ Where:
 - $`N_l`$: Number of filters in layer $`l`$
 - $`M_l`$: Spatial size of the feature map
 
----
-
 ### Total Loss
 
 Combines content and style losses:
@@ -113,7 +101,6 @@ Where:
   <img src="image/stylized-image5.png" width="150px">
 </p>
 
----
 
 ## Training Process
 
@@ -123,8 +110,6 @@ Where:
 4. Update the image using an optimizer (e.g., Adam).
 5. Clip pixel values between 0 and 1.
 6. Repeat for multiple epochs.
-
----
 
 ## Layers Used
 
@@ -136,8 +121,6 @@ Where:
 |          | `block3_conv1`    |                           |
 |          | `block4_conv1`    |                           |
 |          | `block5_conv1`    | Capture abstract style    |
-
----
 
 ## References
 
